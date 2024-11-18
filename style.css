@@ -1,0 +1,91 @@
+body{
+    font-family: 'Bitter';
+}
+
+.teko-myhtml {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+    text-decoration: none; /*zrušní podtržení u odkazů*/
+}
+ol{
+    list-style: none;
+    padding: 0;
+}
+
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+img{
+    width: 100%;
+    height:auto;
+}
+/*heading*/
+header{
+    margin: 10px;
+    overflow: hidden; /*obashuje dva float prvky*/
+}
+#logo{
+    text-align: center;
+}
+h1{
+    /*border: 2px solid green;*/
+    font-size: 1.89em;
+    font-weight: normal;
+    line-height: 0.8em;
+    margin: 15px 0;
+}
+h2{
+    /*border: 2px solid green;*/
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: -5px 0 0; /*překryjeme margin h1*/
+}
+/*navigace*/
+nav{
+    text-align: center;
+    margin: 10px 0 0;
+}
+nav a{
+    font-weight: 800;
+}
+nav a:hover{
+    color:bisque;
+}
+nav a.selected{
+    color:rgb(255, 0, 0);
+}
+/*gallery*/
+#gallery{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#gallery li{
+    float: left;
+    width: 100%;
+    background-color: aqua;
+    margin: 2.5%;
+}
+#gallery li a p{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.85em;
+    color: blueviolet;
+}
+/*footer*/
+footer{
+    font-size: 0.7em;
+    text-align: center;
+    padding: 40px;
+}
+.socials{
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+}
